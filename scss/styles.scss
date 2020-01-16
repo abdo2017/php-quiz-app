@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 1200px;
+    border: 10px solid #15788a;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    height: 50%;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .toast {
+    background-color: #15788a;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+
+    &.green {
+      background: #0da62e;
+    }
+
+    &.red {
+      background: #ed4842;
+    }
+  }
+
+  .breadcrumbs {
+    font-size: 1.2rem;
+  }
+
+  .quiz {
+    font-size: 4rem;
+    margin: 0 20px 10px;
+    font-weight: 900;
+  }
+
+  form input {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background: white;
+    border: 3px solid #15788a;
+    border-radius: 5px;
+    color: #15788a;
+    font-size: 3rem;
+    transition-property: color background;
+    transition-duration: 0.2s;
+    font-weight: 800;
+    cursor: pointer;
+
+    &:hover {
+      background: #15788a;
+      color: white;
+    }
+  }
+}

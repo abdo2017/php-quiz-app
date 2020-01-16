@@ -1,0 +1,29 @@
+#+TITLE:   PHP Quiz Application
+#+DATE:    January 16, 2020
+#+STARTUP: inlineimages nofold
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#module-flags][Module Flags]]
+  - [[#hacks][Hacks]]
+- [[#prerequisites][Prerequisites]]
+- [[#features][Features]]
+- [[#troubleshooting][Troubleshooting]]
+
+* Description
+This is a game for addition random numbers and choosing among 3 answers
+
+** Module Flags
+This module provides no flags.
+
+** Hacks
+{A list of internal modifications to included packages}
+
+* Prerequisites
+basic of php programming.
+
+* Features
+How to use beginner php to make a simple Game using $_SESSION.
+
+* Troubleshooting
+Common issues and their solution, or places to look for help.
